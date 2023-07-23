@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
   .home-container {
     align-items: flex-start;
-    padding-top: 80px;
+    padding-top: 80px; /* Add some top padding to make space for the music player */
   }
 }
 
