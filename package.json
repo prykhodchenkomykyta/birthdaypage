@@ -1,7 +1,7 @@
 {
   "name": "birthdaypage",
   "version": "0.1.0",
-  "homepage": "http://prykhodchenkomykyta.github.io/happy-birthday",
+  "homepage": "https://prykhodchenkomykyta.github.io/happy-birthday/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
