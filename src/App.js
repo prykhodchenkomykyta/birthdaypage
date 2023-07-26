@@ -149,14 +149,14 @@ const Home = ({ photos, isExplosionVisible, setExplosionVisible }) => {
           photoClicked || submitButtonClicked ? "moved" : ""
         }`}
       >
-        <MusicPlayer src={process.env.PUBLIC_URL + "/cats.mp4"} autoPlay />
+        <MusicPlayer src="/cats.mp4" autoPlay />
       </div>
       {/* Randomly positioned and sized photos */}
       {showPhotos &&
         photoPositions.map((position, index) => (
           <Photo
             key={index}
-            src={process.env.PUBLIC_URL + `/${photos[index]}`} // Use 'photos' instead of 'photo'
+            src="`/${photos[index]}`" // Use 'photos' instead of 'photo'
             onClick={handlePhotoClick}
             style={{
               position: "absolute",
@@ -170,7 +170,7 @@ const Home = ({ photos, isExplosionVisible, setExplosionVisible }) => {
         ))}
       {showAdditionalImage && (
         <div className="additional-image-container">
-          <img src={process.env.PUBLIC_URL + "/cake.jpg"} alt="Additional" />
+          <img src="/cake.jpg" alt="Additional" />
           <input
             type="text"
             placeholder="Enter your wish"
