@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/birthdaypage/static/css/main.4dfa6296.css",
-    "main.js": "/birthdaypage/static/js/main.06e1bed2.js",
+    "main.js": "/birthdaypage/static/js/main.d5bfb48e.js",
     "static/media/exp.png": "/birthdaypage/static/media/exp.b3950415af165673f12a.png",
     "index.html": "/birthdaypage/index.html",
     "main.4dfa6296.css.map": "/birthdaypage/static/css/main.4dfa6296.css.map",
-    "main.06e1bed2.js.map": "/birthdaypage/static/js/main.06e1bed2.js.map"
+    "main.d5bfb48e.js.map": "/birthdaypage/static/js/main.d5bfb48e.js.map"
   },
   "entrypoints": [
     "static/css/main.4dfa6296.css",
-    "static/js/main.06e1bed2.js"
+    "static/js/main.d5bfb48e.js"
   ]
 }
